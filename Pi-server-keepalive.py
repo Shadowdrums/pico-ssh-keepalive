@@ -63,5 +63,5 @@ else:
         # Test connections for 1 minute
         end_time = time.time() + 60
         while time.time() < end_time:
-            test_tcp_connection('192.168.17.245')
-            test_tcp_connection('192.168.17.151')
+            test_tcp_connection('server_ip1')
+            test_tcp_connection('server_ip2')
