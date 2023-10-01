@@ -6,8 +6,8 @@ from machine import Pin
 led = Pin("LED", Pin.OUT)
 led.value(0)  # LED Off initially
 
-ssid = 'ShadowVPN'
-password = '123Sd456!'
+ssid = 'Network_name'
+password = 'Network_password'
 
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
